@@ -1,0 +1,137 @@
+body {
+    background-color: #e0d9f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #d4c1ed;
+}
+
+.navbar-brand .fw-bold {
+    color: #4a148c;
+}
+.navbar-brand img {
+    height: 40px;
+    width: 70px;
+}
+.card {
+    background-color: #f0ebf8;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #d4c1ed;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.form-control:focus {
+    border-color: #8e24aa;
+    box-shadow: 0 0 0 0.25rem rgba(142, 36, 170, 0.25);
+    background-color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #7b1fa2;
+    border-color: #7b1fa2;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6a1b9a;
+    border-color: #6a1b9a;
+}
+
+.btn-success {
+    background-color: #a347cf;
+    border-color: #a347cf;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #923dc0;
+    border-color: #923dc0;
+}
+
+.btn-outline-success {
+    color: #a347cf;
+    border-color: #a347cf;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #a347cf;
+    color: #ffffff;
+    border-color: #a347cf;
+}
+
+.btn-link {
+    color: #8e24aa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.btn-link:hover {
+    color: #6a1b9a;
+    text-decoration: underline;
+}
+
+.alert-danger {
+    background-color: #fde6e8;
+    color: #e53935;
+    border-color: #fbc7c9;
+    border-radius: 8px;
+}
+
+.list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #e0d9f4;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.list-group-item h5 {
+    color: #4a148c;
+    font-weight: bold;
+}
+
+.list-group-item small {
+    color: #9c27b0;
+}
+
+.list-group-item p {
+    color: #555;
+    line-height: 1.6;
+}
+
+h4, h3 {
+    color: #4a148c;
+    font-weight: bold;
+}
+
+a {
+    color: #8e24aa;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6a1b9a;
+    text-decoration: underline;
+}
+.content-container-spacing {
+    margin-top: 100px;
+}

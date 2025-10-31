@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h4 class="mb-3">New Post</h4>
+{% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+<form method="post">{% csrf_token %}
+  <div class="mb-3">
+    <label class="form-label">Title</label>
+    <input name="title" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Content</label>
+    <textarea name="content" class="form-control" rows="5" required></textarea>
+  </div>
+  <button class="btn btn-success">Create</button>
+</form>
+{% endblock %}

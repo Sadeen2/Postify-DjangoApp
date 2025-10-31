@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h3 class="mb-3">Your posts</h3>
+{% if posts %}
+  <div class="list-group">
+    {% for p in posts %}
+    <div class="list-group-item">
+      <h5 class="mb-1">{{ p.title }}</h5>
+      <small class="text-muted">{{ p.created_at }}</small>
+      <p class="mb-0 mt-2">{{ p.content|linebreaksbr }}</p>
+      <a href="{% url 'post_delete' p.id %}" class="btn btn-outline-danger btn-sm mt-2">Delete</a>
+    </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No posts yet. <a href="{% url 'post_create' %}">Create your first post</a>.</p>
+{% endif %}
+{% endblock %}
